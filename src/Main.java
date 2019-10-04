@@ -158,11 +158,11 @@ public class Main {
 
 	public static void main(String[] args) throws FileNotFoundException {
 
-//		File inputFile = new File(args[0]);
-		File inputFile = new File("input.txt");
+		File inputFile = new File(args[0]);
+//		File inputFile = new File("input.txt");
 		Scanner in = new Scanner(inputFile);
-		PrintWriter out = new PrintWriter("031702106.txt");
-//		PrintWriter out = new PrintWriter(args[1]);
+//		PrintWriter out = new PrintWriter("031702106.txt");
+		PrintWriter out = new PrintWriter(args[1]);
 		// Scanner in = new Scanner(System.in);
 		String [] Address = new String [5000];
 		for(int j=0;in.hasNext();j++)
